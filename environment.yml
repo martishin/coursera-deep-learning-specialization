@@ -3,47 +3,72 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - anyio=4.6.2
-  - appnope=0.1.2
+  - anyio=4.6.2.post1
+  - appnope=0.1.4
   - argon2-cffi=21.3.0
   - argon2-cffi-bindings=21.2.0
+  - arrow=1.3.0
   - asttokens=2.0.5
   - async-lru=2.0.4
   - attrs=24.2.0
   - autopep8=2.3.1
   - babel=2.11.0
+  - backports=1.0
+  - backports.functools_lru_cache=2.0.0
   - beautifulsoup4=4.12.3
   - black=24.10.0
-  - blas=1.0
+  - blas=2.116
+  - blas-devel=3.9.0
   - bleach=4.1.0
   - bottleneck=1.4.2
+  - brotli=1.0.9
+  - brotli-bin=1.0.9
   - brotli-python=1.0.9
   - bzip2=1.0.8
-  - ca-certificates=2024.9.24
-  - certifi=2024.8.30
+  - c-ares=1.34.4
+  - ca-certificates=2024.12.14
+  - cached-property=1.5.2
+  - cached_property=1.5.2
+  - certifi=2024.12.14
   - cffi=1.17.1
   - charset-normalizer=3.3.2
   - click=8.1.7
   - comm=0.2.1
+  - contourpy=1.0.7
+  - cycler=0.12.1
   - debugpy=1.6.7
   - decorator=5.1.1
   - defusedxml=0.7.1
   - entrypoints=0.4
   - exceptiongroup=1.2.2
   - executing=0.8.3
+  - flit-core=3.10.1
+  - fonttools=4.55.3
+  - fqdn=1.5.1
+  - freetype=2.12.1
   - h11=0.14.0
+  - h2=4.1.0
+  - h5py=3.9.0
+  - hdf5=1.14.0
+  - hpack=4.0.0
   - httpcore=1.0.2
   - httpx=0.27.0
+  - hyperframe=6.0.1
   - idna=3.7
   - importlib-metadata=8.5.0
+  - importlib_metadata=8.5.0
+  - importlib_resources=6.4.5
   - ipykernel=6.29.5
   - ipython=8.29.0
+  - isoduration=20.11.0
   - isort=5.13.2
   - jedi=0.19.1
   - jinja2=3.1.4
   - json5=0.9.25
+  - jsonpointer=3.0.0
   - jsonschema=4.23.0
   - jsonschema-specifications=2023.7.1
+  - jsonschema-with-format-nongpl=4.23.0
   - jupyter-lsp=2.2.0
   - jupyter_client=8.6.0
   - jupyter_core=5.7.2
@@ -53,19 +78,47 @@ dependencies:
   - jupyterlab=4.2.5
   - jupyterlab_pygments=0.1.2
   - jupyterlab_server=2.27.3
+  - kiwisolver=1.4.4
+  - krb5=1.21.3
+  - lcms2=2.15
+  - lerc=4.0.0
+  - libaec=1.0.6
+  - libblas=3.9.0
+  - libbrotlicommon=1.0.9
+  - libbrotlidec=1.0.9
+  - libbrotlienc=1.0.9
+  - libcblas=3.9.0
+  - libcurl=8.4.0
   - libcxx=14.0.6
+  - libdeflate=1.18
+  - libedit=3.1.20230828
+  - libev=4.33
   - libexpat=2.6.4
-  - libffi=3.4.4
+  - libffi=3.4.2
   - libgfortran=5.0.0
   - libgfortran5=11.3.0
+  - libjpeg-turbo=2.1.5.1
+  - liblapack=3.9.0
+  - liblapacke=3.9.0
+  - liblzma=5.6.3
+  - liblzma-devel=5.6.3
+  - libnghttp2=1.52.0
   - libopenblas=0.3.21
+  - libpng=1.6.44
   - libsodium=1.0.18
   - libsqlite=3.45.2
+  - libssh2=1.11.1
+  - libtiff=4.5.0
+  - libwebp-base=1.5.0
+  - libxcb=1.15
   - libzlib=1.3.1
   - llvm-openmp=14.0.6
   - markupsafe=2.1.3
+  - matplotlib=3.9.2
+  - matplotlib-base=3.9.2
   - matplotlib-inline=0.1.6
   - mistune=2.0.4
+  - munkres=1.1.4
   - mypy_extensions=1.0.0
   - nbclient=0.8.0
   - nbconvert=7.16.4
@@ -73,13 +126,15 @@ dependencies:
   - nbconvert-pandoc=7.16.4
   - nbformat=5.10.4
   - nbqa=1.9.0
-  - ncurses=6.4
+  - ncurses=6.4.20240210
   - nest-asyncio=1.6.0
   - notebook=7.2.2
   - notebook-shim=0.2.3
-  - numexpr=2.10.1
+  - numexpr=2.8.4
   - numpy=1.26.4
   - numpy-base=1.26.4
+  - openblas=0.3.21
+  - openjpeg=2.5.0
   - openssl=3.4.0
   - overrides=7.4.0
   - packaging=24.1
@@ -90,33 +145,41 @@ dependencies:
   - pathspec=0.10.3
   - pexpect=4.8.0
   - pickleshare=0.7.5
+  - pillow=9.5.0
   - pip=24.2
+  - pkgutil-resolve-name=1.3.10
   - platformdirs=3.10.0
+  - pooch=1.8.2
   - prometheus_client=0.21.0
   - prompt-toolkit=3.0.43
   - prompt_toolkit=3.0.43
-  - psutil=5.9.0
+  - psutil=6.1.0
+  - pthread-stubs=0.4
   - ptyprocess=0.7.0
   - pure_eval=0.2.2
   - pycodestyle=2.12.1
   - pycparser=2.21
   - pygments=2.15.1
+  - pyobjc-core=10.3.2
+  - pyobjc-framework-cocoa=10.3.2
+  - pyparsing=3.2.1
   - pysocks=1.7.1
   - python=3.11.8
-  - python-dateutil=2.9.0post0
+  - python-dateutil=2.9.0.post0
   - python-fastjsonschema=2.20.0
   - python-json-logger=2.0.7
   - python-tzdata=2023.3
   - python_abi=3.11
   - pytz=2024.1
   - pyyaml=6.0.2
-  - pyzmq=25.1.2
+  - pyzmq=25.1.1
   - readline=8.2
   - referencing=0.30.2
   - requests=2.32.3
   - rfc3339-validator=0.1.4
   - rfc3986-validator=0.1.1
   - rpds-py=0.10.6
+  - scipy=1.10.1
   - send2trash=1.8.2
   - setuptools=72.1.0
   - six=1.16.0
@@ -131,17 +194,60 @@ dependencies:
   - tomli=2.1.0
   - tornado=6.4.1
   - traitlets=5.14.3
-  - typing-extensions=4.11.0
-  - typing_extensions=4.11.0
+  - types-python-dateutil=2.9.0.20241206
+  - typing_utils=0.1.0
   - tzdata=2024b
-  - urllib3=2.2.3
+  - unicodedata2=15.1.0
+  - uri-template=1.3.0
   - wcwidth=0.2.5
+  - webcolors=24.11.1
   - webencodings=0.5.1
   - websocket-client=1.8.0
   - wheel=0.44.0
-  - xz=5.4.6
+  - xorg-libxau=1.0.12
+  - xorg-libxdmcp=1.1.5
+  - xz=5.6.3
+  - xz-gpl-tools=5.6.3
+  - xz-tools=5.6.3
   - yaml=0.2.5
   - zeromq=4.3.5
   - zipp=3.21.0
   - zlib=1.3.1
-prefix: /opt/miniconda3/envs/coursera-deep-learning-specialization
+  - zstandard=0.23.0
+  - zstd=1.5.6
+  - pip:
+      - annotated-types==0.7.0
+      - appdirs==1.4.4
+      - backports-tarfile==1.2.0
+      - cachecontrol==0.14.1
+      - cachy==0.3.0
+      - click-default-group==1.2.4
+      - clikit==0.6.2
+      - conda-lock==2.5.7
+      - crashtest==0.3.1
+      - distlib==0.3.9
+      - ensureconda==1.4.4
+      - filelock==3.16.1
+      - gitdb==4.0.11
+      - gitpython==3.1.43
+      - html5lib==1.1
+      - jaraco-classes==3.4.0
+      - jaraco-context==6.0.1
+      - jaraco-functools==4.1.0
+      - keyring==25.6.0
+      - more-itertools==10.5.0
+      - msgpack==1.1.0
+      - pastel==0.2.1
+      - pkginfo==1.12.0
+      - pydantic==2.10.4
+      - pydantic-core==2.27.2
+      - pylev==1.4.0
+      - ruamel-yaml==0.18.6
+      - ruamel-yaml-clib==0.2.12
+      - smmap==5.0.1
+      - tomlkit==0.13.2
+      - toolz==0.12.1
+      - typing-extensions==4.12.2
+      - urllib3==1.26.20
+      - virtualenv==20.28.0
+prefix: /Users/monkey/miniconda3/envs/coursera-deep-learning-specialization
